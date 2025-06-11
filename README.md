@@ -1,12 +1,12 @@
-# Rhilo Investimentos - Website
+# Procuro Advogado - Website
 
-![Rhilo Logo](/assets/images/logo.svg)
+![Procuro Advogado Logo](/assets/images/logos/logo.png)
 
 ## Sobre o Projeto
 
-Rhilo Investimentos é um fundo de investimentos especializado em ativos judiciais, oferecendo soluções inovadoras para investidores que buscam diversificação e rentabilidade, além de soluções para advogados e seus clientes que desejam antecipar o recebimento de seus ativos judiciais.
+Este site usa a tecnologia e IA para ajudar as pessoas a encontrarem o melhor advogado para ajudar no caso dela, acompanhar o processo e acelerar o processo. A pessoa vai descrever o caso que ela está passando, o site vai ajudar ela a entender seus direitos e a direcionar para um advogado de confiança que pode atender a essa pessoa, tudo seguindo as normas da OAB. Se a pessoa permitir, esse site vai usar IA e já organizar e categorizar as suas informações, para acelerar o processo de forma muito organizada e eficiente. O site também vai permitir a pessoas acompanharem seus processos e receberem notificações sobre os andamentos processuais.
 
-Este repositório contém o código-fonte do site institucional da Rhilo Investimentos, construído com Jekyll - um gerador de sites estáticos.
+Este repositório contém o código-fonte do site Procuro Advogado, construído com Jekyll - um gerador de sites estáticos.
 
 ## 📋 Índice
 
@@ -23,17 +23,19 @@ Este repositório contém o código-fonte do site institucional da Rhilo Investi
 
 ## 🔍 Visão Geral
 
-O site da Rhilo Investimentos foi desenvolvido com foco em:
+O site Procuro Advogado foi desenvolvido com foco em:
 
-1. **Apresentação do Fundo de Investimentos**: Destaque para os produtos de investimento em ativos judiciais, com informações sobre rentabilidade, risco e vantagens.
+1. **Matching Inteligente**: Conecta pessoas com advogados especializados usando IA para analisar casos e encontrar os melhores profissionais.
 
-2. **Educação sobre Ativos Judiciais**: Explicação sobre o que são ativos judiciais e como funciona o mercado de investimentos nesse segmento.
+2. **Educação Jurídica**: Ajuda cidadãos a entenderem seus direitos e as diferentes áreas do direito através de conteúdo educativo.
 
-3. **Antecipação de Créditos**: Informações direcionadas a advogados e seus clientes sobre como antecipar o recebimento de ativos judiciais.
+3. **Acompanhamento Processual**: Permite que usuários acompanhem o andamento de seus processos e recebam notificações em tempo real.
 
-4. **Blog Especializado**: Artigos sobre investimentos, ativos judiciais e o mercado financeiro-jurídico.
+4. **Organização com IA**: Categoriza e organiza informações dos casos de forma automatizada para acelerar o processo jurídico.
 
-5. **Geração de Leads**: Captação de contatos tanto de investidores interessados no fundo quanto de advogados/clientes com créditos judiciais.
+5. **Conformidade OAB**: Todas as funcionalidades seguem rigorosamente as normas da Ordem dos Advogados do Brasil.
+
+6. **Blog Especializado**: Artigos que ajudam cidadãos a encontrarem os melhores advogados e entenderem o sistema jurídico.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -67,8 +69,8 @@ O projeto está configurado para ser executado em um ambiente containerizado com
 
 1. **Clone o repositório**:
    ```bash
-   git clone git@github.com:CalculoJuridico/rhilo-homepage.git
-   cd rhilo-homepage
+   git clone git@github.com:CalculoJuridico/procuroadvogado-homepage.git
+   cd procuroadvogado-homepage
    ```
 
 2. **Iniciar com o script de execução simples**:
@@ -105,8 +107,8 @@ Se preferir executar o projeto localmente sem Docker:
 
 1. **Clone o repositório**:
    ```bash
-   git clone git@github.com:CalculoJuridico/rhilo-homepage.git
-   cd rhilo-homepage
+   git clone git@github.com:CalculoJuridico/procuroadvogado-homepage.git
+   cd procuroadvogado-homepage
    ```
 
 2. **Instale as dependências**:
@@ -127,7 +129,7 @@ Se preferir executar o projeto localmente sem Docker:
 O projeto segue a estrutura padrão do Jekyll com algumas personalizações:
 
 ```
-rhilo-homepage/
+procuroadvogado-homepage/
 ├── _authors/            # Perfis de autores do blog
 ├── _data/               # Arquivos de dados em YAML (navegação, rodapé, etc.)
 ├── _includes/           # Componentes reutilizáveis HTML
@@ -328,4 +330,4 @@ Estes scripts são úteis para manter o site atualizado com informações releva
 
 ## 📝 Licença
 
-Copyright © 2025 Rhilo Investimentos LTDA. Todos os direitos reservados.
+Copyright © 2025 Procuro Advogado. Todos os direitos reservados.

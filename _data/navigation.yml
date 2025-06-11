@@ -1,14 +1,12 @@
 - name: Início
   link: /
-- name: Fundos de Investimento
-  link: /#investment
-- name: Ativos Judiciais
-  link: /#resources
+- name: Como Funciona
+  link: /#how-it-works
+- name: Áreas Jurídicas
+  link: /#legal-areas
 - name: Vantagens
   link: /#advantages
 - name: Blog
   link: /blog/
-- name: Autores
-  link: /autores/
 - name: Contato
   link: /#contact
