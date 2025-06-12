@@ -5,20 +5,139 @@ layout: default
 <!-- Hero Section -->
 {% include hero.html %}
 
-<!-- How It Works Section -->
-{% include investment-funds.html %}
+<!-- Case Description Prompt Section -->
+<section class="case-prompt-section py-5 bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h2 class="h1 mb-4">Como Funciona</h2>
+        <div class="row gy-4">
+          <div class="col-md-4">
+            <div class="step-card p-4 bg-white rounded-3 shadow-sm h-100">
+              <div class="step-number bg-primary text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 50px; height: 50px;">1</div>
+              <h4 class="h5 mb-3">Descreva Seu Caso</h4>
+              <p class="text-muted">Conte-nos sobre sua situação jurídica em suas próprias palavras.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="step-card p-4 bg-white rounded-3 shadow-sm h-100">
+              <div class="step-number bg-primary text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 50px; height: 50px;">2</div>
+              <h4 class="h5 mb-3">IA Analisa e Conecta</h4>
+              <p class="text-muted">Nossa inteligência artificial encontra os advogados mais adequados para seu caso.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="step-card p-4 bg-white rounded-3 shadow-sm h-100">
+              <div class="step-number bg-primary text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 50px; height: 50px;">3</div>
+              <h4 class="h5 mb-3">Receba Propostas</h4>
+              <p class="text-muted">Compare propostas e escolha o profissional ideal para representá-lo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-<!-- Legal Areas Section -->
-{% include resources.html %}
+<!-- Case Types Section -->
+<section class="case-types-section py-5">
+  <div class="container">
+    <div class="row justify-content-center mb-5">
+      <div class="col-lg-8 text-center">
+        <h2 class="h1 mb-4">Que Tipo de Caso Você Tem?</h2>
+        <p class="lead text-muted">Clique na área que melhor descreve sua situação para começar</p>
+      </div>
+    </div>
+    <div class="row gy-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="case-type-card p-4 bg-white border rounded-3 h-100 hover-card">
+          <i class="fas fa-briefcase text-primary fa-2x mb-3"></i>
+          <h4 class="h5 mb-3">Direito Trabalhista</h4>
+          <p class="text-muted mb-3">Demissões injustas, horas extras, assédio moral, acidentes de trabalho</p>
+          <a href="#hero" class="btn btn-outline-primary btn-sm">Descrever Caso</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="case-type-card p-4 bg-white border rounded-3 h-100 hover-card">
+          <i class="fas fa-car text-primary fa-2x mb-3"></i>
+          <h4 class="h5 mb-3">Direito de Trânsito</h4>
+          <p class="text-muted mb-3">Acidentes, multas, suspensão de CNH, indenizações</p>
+          <a href="#hero" class="btn btn-outline-primary btn-sm">Descrever Caso</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="case-type-card p-4 bg-white border rounded-3 h-100 hover-card">
+          <i class="fas fa-home text-primary fa-2x mb-3"></i>
+          <h4 class="h5 mb-3">Direito Imobiliário</h4>
+          <p class="text-muted mb-3">Contratos de aluguel, compra e venda, problemas com vizinhos</p>
+          <a href="#hero" class="btn btn-outline-primary btn-sm">Descrever Caso</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="case-type-card p-4 bg-white border rounded-3 h-100 hover-card">
+          <i class="fas fa-heart text-primary fa-2x mb-3"></i>
+          <h4 class="h5 mb-3">Direito de Família</h4>
+          <p class="text-muted mb-3">Divórcio, pensão alimentícia, guarda dos filhos, adoção</p>
+          <a href="#hero" class="btn btn-outline-primary btn-sm">Descrever Caso</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="case-type-card p-4 bg-white border rounded-3 h-100 hover-card">
+          <i class="fas fa-user-shield text-primary fa-2x mb-3"></i>
+          <h4 class="h5 mb-3">Direito do Consumidor</h4>
+          <p class="text-muted mb-3">Produtos defeituosos, serviços mal prestados, cobranças indevidas</p>
+          <a href="#hero" class="btn btn-outline-primary btn-sm">Descrever Caso</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="case-type-card p-4 bg-white border rounded-3 h-100 hover-card">
+          <i class="fas fa-gavel text-primary fa-2x mb-3"></i>
+          <h4 class="h5 mb-3">Outros Casos</h4>
+          <p class="text-muted mb-3">Direito penal, civil, empresarial e outras áreas jurídicas</p>
+          <a href="#hero" class="btn btn-outline-primary btn-sm">Descrever Caso</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-<!-- Advantages Section -->
-{% include advantages.html %}
+<!-- Trust Section -->
+<section class="trust-section py-5 bg-primary text-white">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-8">
+        <h3 class="h2 mb-3">Advogados Verificados e Licenciados</h3>
+        <p class="mb-0">Todos os profissionais em nossa plataforma são verificados pela OAB e possuem experiência comprovada em suas áreas de atuação.</p>
+      </div>
+      <div class="col-lg-4 text-lg-end">
+        <div class="d-flex align-items-center justify-content-lg-end">
+          <i class="fas fa-shield-check fa-3x me-3"></i>
+          <div>
+            <div class="h4 mb-1">100%</div>
+            <div class="small">Verificados</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-<!-- Testimonials Section -->
-{% include testimonials.html %}
+<style>
+.hover-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
 
-<!-- Recent Blog Posts -->
-{% include recent-posts.html %}
+.hover-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
 
-<!-- Contact Form -->
-{% include contact-form.html %}
+.step-card {
+  transition: transform 0.2s ease;
+}
+
+.step-card:hover {
+  transform: translateY(-2px);
+}
+</style>
