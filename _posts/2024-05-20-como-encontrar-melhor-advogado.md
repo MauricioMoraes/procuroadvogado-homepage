@@ -5,7 +5,7 @@ author: pedro-santos
 date: 2024-05-20 15:00:00 -0300
 categories: [Orientação Jurídica, Escolha de Advogado]
 tags: [advogado, escolha, OAB, especialização, consultoria jurídica]
-image: /assets/images/posts/escolha-advogado.jpg
+image: /assets/images/posts/automacao-juridica.jpg
 description: Descubra como escolher o advogado ideal para seu caso com dicas práticas e critérios fundamentais para uma decisão acertada.
 ---
 

@@ -1,12 +1,18 @@
 - name: Início
   link: /
+  icon: fas fa-home
 - name: Como Funciona
-  link: /#how-it-works
+  link: /#case-prompt-section
+  icon: fas fa-cogs
 - name: Áreas Jurídicas
-  link: /#legal-areas
+  link: /#case-types-section
+  icon: fas fa-balance-scale
 - name: Vantagens
   link: /#advantages
+  icon: fas fa-star
 - name: Blog
   link: /blog/
+  icon: fas fa-newspaper
 - name: Contato
   link: /#contact
+  icon: fas fa-envelope

@@ -5,7 +5,7 @@ author: maria-oliveira
 date: 2024-05-15 10:00:00 -0300
 categories: [Orientação Jurídica, Áreas do Direito]
 tags: [áreas do direito, especialização, advogado especialista, orientação jurídica]
-image: /assets/images/posts/areas-do-direito.jpg
+image: /assets/images/posts/gestao-escritorio-advocacia.jpg
 description: Entenda as principais áreas do direito e saiba quando procurar cada tipo de especialista para resolver sua questão jurídica.
 ---
 

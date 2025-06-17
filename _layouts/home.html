@@ -5,7 +5,7 @@ layout: default
 {% include hero.html %}
 
 <!-- Case Description Prompt Section -->
-<section class="case-prompt-section py-5 bg-light">
+<section id="case-prompt-section" class="case-prompt-section py-5 bg-light">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
@@ -39,7 +39,7 @@ layout: default
 </section>
 
 <!-- Case Types Section -->
-<section class="case-types-section py-5">
+<section id="case-types-section" class="case-types-section py-5">
   <div class="container">
     <div class="row justify-content-center mb-5">
       <div class="col-lg-8 text-center">
@@ -120,6 +120,10 @@ layout: default
     </div>
   </div>
 </section>
+
+{% include advantages.html %}
+
+{% include contact-form.html %}
 
 <style>
 .hover-card {

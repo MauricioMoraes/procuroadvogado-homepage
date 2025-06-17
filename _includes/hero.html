@@ -46,7 +46,7 @@
             
             <div class="feature-item">
               <div class="feature-icon">
-                <i class="fas fa-shield-check"></i>
+                <i class="fas fa-shield-alt"></i>
               </div>
               <div class="feature-text">
                 <strong>Advogados Verificados</strong>
@@ -60,7 +60,7 @@
               </div>
               <div class="feature-text">
                 <strong>Resultados Rápidos</strong>
-                <span>Conexão em menos de 2 minutos</span>
+                <span>Agilize seu processo</span>
               </div>
             </div>
           </div>
@@ -105,27 +105,29 @@
               </p>
             </div>
             
-            <div class="form-body">
+            <form id="heroForm" class="form-body">
               <div class="form-group">
                 <label class="form-label">Descreva seu caso jurídico</label>
                 <textarea 
+                  id="caseDescription"
                   class="form-control form-textarea" 
                   rows="5" 
                   placeholder="Ex: Preciso de ajuda com um contrato de trabalho injusto, sofri um acidente de trânsito, tenho problemas com meu proprietário..."
+                  required
                 ></textarea>
               </div>
               
               <div class="form-group">
                 <label class="form-label">Localização (opcional)</label>
-                <input type="text" class="form-control" placeholder="Cidade, Estado">
+                <input type="text" id="cityLocation" class="form-control" placeholder="Cidade, Estado">
               </div>
               
-              <button class="btn btn-form-submit w-100">
+              <button type="submit" class="btn btn-form-submit w-100">
                 <i class="fas fa-robot me-2"></i>
                 Encontrar Meu Advogado
                 <div class="btn-shine"></div>
               </button>
-            </div>
+            </form>
             
             <div class="form-footer">
               <div class="security-badge">
@@ -586,4 +588,39 @@ function scrollToForm() {
     block: 'center'
   });
 }
+
+// Handle hero form submission
+document.addEventListener('DOMContentLoaded', function() {
+  const heroForm = document.getElementById('heroForm');
+  
+  if (heroForm) {
+    heroForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const caseDescription = document.getElementById('caseDescription').value.trim();
+      const cityLocation = document.getElementById('cityLocation').value.trim();
+      
+      if (!caseDescription) {
+        alert('Por favor, descreva seu caso jurídico.');
+        return;
+      }
+      
+      // Construct WhatsApp message
+      let message = `Contato em procuroadvogado.com.br\n\nOlá! Preciso de ajuda jurídica.\n\n*Descrição do caso:*\n${caseDescription}`;
+      
+      if (cityLocation) {
+        message += `\n\n*Localização:* ${cityLocation}`;
+      }
+      
+      message += `\n\nPor favor, me conectem com um advogado especializado. Obrigado!`;
+      
+      // Encode message for URL
+      const encodedMessage = encodeURIComponent(message);
+      
+      // Open WhatsApp with the message
+      const whatsappUrl = `https://wa.me/message/2WOWTII2LT3OK1?text=${encodedMessage}`;
+      window.open(whatsappUrl, '_blank');
+    });
+  }
+});
 </script>
