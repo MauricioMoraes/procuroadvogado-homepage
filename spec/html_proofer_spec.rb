@@ -6,7 +6,7 @@ describe 'HTML Proofer' do
   # Skip this test by default as it requires a full site build
   # Uncomment to run more thorough tests
   xit 'has no HTML errors' do
-    # site_dir = File.expand_path('../../_site', __dir__)
+    # site_dir = File.expand_path('../../build', __dir__)
     
     # options = {
     #   assume_extension: true,

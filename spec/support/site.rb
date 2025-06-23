@@ -10,7 +10,7 @@ class Site
   def build_site
     site = Jekyll::Site.new(Jekyll.configuration(
       source: File.expand_path('../..', __dir__),
-      destination: File.expand_path('../../_site', __dir__)
+      destination: File.expand_path('../../build', __dir__)
     ))
     # Just load the configuration and data
     site.reset

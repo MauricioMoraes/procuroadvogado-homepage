@@ -15,6 +15,7 @@ markdown: kramdown
 permalink: /:year/:month/:day/:title/
 paginate: 10
 paginate_path: "/blog/page:num/"
+destination: build
 
 # Collections
 collections:

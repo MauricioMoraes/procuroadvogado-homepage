@@ -56,8 +56,8 @@ Modifique o arquivo `vercel.json` para incluir configurações explícitas de re
 
 ```json
 {
-  "buildCommand": "bundle exec jekyll build --trace || mkdir -p _site && cp -R assets _site/",
-  "outputDirectory": "_site",
+  "buildCommand": "bundle exec jekyll build --trace || mkdir -p build && cp -R assets build/",
+  "outputDirectory": "build",
   "framework": "jekyll",
   "installCommand": "bundle install",
   "headers": [

@@ -1,11 +1,15 @@
 {
   "hosting": {
     "site": "procuroadvogado",
-    "public": "_site",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",
-      "**/node_modules/**"
+      "**/node_modules/**",
+      "**/*.sh",
+      "**/temp/**",
+      "**/feed.xml",
+      "**/sitemap.xml"
     ]
   }
 }
